@@ -5,10 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header>
+      <div class="container">
+        <div class="header__top">
+          <nav role="navigation">
+            <ul>
+            <li><a href="">О компании</a></li>
+            <li><a href="">Магазины</a></li>
+            <li><a href="">Оплата и доставка</a></li>
+            <li><a href="">Контакты</a></li>
+            </ul>
+          </nav>
+          <a href=""><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.3346 19.25V17.4167C18.3346 16.4442 17.9483 15.5116 17.2607 14.8239C16.5731 14.1363 15.6404 13.75 14.668 13.75H7.33464C6.36217 13.75 5.42954 14.1363 4.74191 14.8239C4.05428 15.5116 3.66797 16.4442 3.66797 17.4167V19.25" stroke="#213F74" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.9987 10.0833C13.0237 10.0833 14.6654 8.44171 14.6654 6.41667C14.6654 4.39162 13.0237 2.75 10.9987 2.75C8.97365 2.75 7.33203 4.39162 7.33203 6.41667C7.33203 8.44171 8.97365 10.0833 10.9987 10.0833Z" stroke="#213F74" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg> Личный кабинет
+</a>
+        </div>
+        <div class="header__bottom">
+          <a href="" class="header__logo">
+            <img src="./assets/images/logo.png" alt="Лого" />
+          </a>
+          <form action="" method="post">
+            <input type="email" name="email">
+            <button type="submit">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#213F74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.0004 21L16.6504 16.65" stroke="#213F74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+            </button>
+          </form>
+          <div class="header__bottom__contacts">
+            <div>
+              <a href="tel:+7 999 999-99-99">+7 999 999-99-99</a>
+              <p><span></span> Звоните с 8:10 до 18:10</p>
+            </div>
+            <button class="cta">Заказать звонок</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="categories">
+        <div class="container">
+          <ul class="categories__list">
+            <li class="categories__list__item"><a href="">Акции</a></li>
+            <li class="categories__list__item"><a href=""></a></li>
+            <li class="categories__list__item"><a href=""></a></li>
+            <li class="categories__list__item"><a href=""></a></li>
+            <li class="categories__list__item"><a href=""></a></li>
+            <li class="categories__list__item"><a href=""></a></li>
+          </ul>
+          <a href="" class="categories__cart">
+            <span class="categories__cart__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1 1H5L7.68 14.39C7.77144 14.8504 8.02191 15.264 8.38755 15.5583C8.75318 15.8526 9.2107 16.009 9.68 16H19.4C19.8693 16.009 20.3268 15.8526 20.6925 15.5583C21.0581 15.264 21.3086 14.8504 21.4 14.39L23 6H6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+<span class="categories__cart__amount">0</span>
+            </span>
+            <span>
+              Корзина
+            </span>
+          </a>
+        </div>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
