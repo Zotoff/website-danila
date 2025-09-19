@@ -81,13 +81,13 @@
         </div>
       </div>
 
-      <section>
+      <section class="firstScreen">
 
-        <div class="swiper-container">
+        <div class="swiper-container firstScreen__slider">
           <div class="swiper-wrapper">
 
             <!--Слайд 1-->
-            <div class="swiper-slide">
+            <div class="swiper-slide firstScreen__slider__item">
               <div class="container">
 
                 <!--Фоновая картинка-->
@@ -107,13 +107,13 @@
                   </span>
 
                 </a>
-                <h1>Изысканные смесители для вашего интерьера</h1>
+                <h2>Изысканные смесители для вашего интерьера</h2>
                 <p>Гарантируем высочайшую безопасность и надёжность в соответствии с международными стандартами качества.</p>
               </div>
             </div>
 
             <!--Слайд 2-->
-            <div class="swiper-slide">
+            <div class="swiper-slide firstScreen__slider__item">
               <div class="container">
                 <img src="" alt="Слайд 2">
                 <a href="" class="slide__switcher">
@@ -129,13 +129,13 @@
                   </span>
 
                 </a>
-                <h1>Душевые системы от известного производителя</h1>
+                <h2>Душевые системы от известного производителя</h2>
                 <p>Гарантируем высочайшую безопасность и надёжность в соответствии с международными стандартами качества.</p>
               </div>
             </div>
 
             <!--Слайд 3-->
-            <div class="swiper-slide">
+            <div class="swiper-slide firstScreen__slider__item">
               <div class="container">
                 <img src="" alt="Слайд 3">
                 <a href="" class="slide__switcher">
@@ -151,13 +151,13 @@
                   </span>
 
                 </a>
-                <h1>Прочные душевые стойки</h1>
+                <h2>Прочные душевые стойки</h2>
                 <p>Гарантируем высочайшую безопасность и надёжность в соответствии с международными стандартами качества.</p>
               </div>
             </div>
 
             <!--Слайд 4-->
-            <div class="swiper-slide">
+            <div class="swiper-slide firstScreen__slider__item">
               <div class="container">
                 <img src="" alt="Слайд 4">
                 <a href="" class="slide__switcher">
@@ -173,34 +173,32 @@
                   </span>
                   
                 </a>
-                <h1>Изливы переосмыслены лучшими дизайнерами Италии</h1>
+                <h2>Изливы переосмыслены лучшими дизайнерами Италии</h2>
                 <p>Гарантируем высочайшую безопасность и надёжность в соответствии с международными стандартами качества.</p>
               </div>
             </div>
           </div>
           <div class="swiper-pagination"></div>
           
-          <!--JAVA-SCRIPT КОД ДЛЯ СВАППЕРА-->
-          <script src="./styles/swiper-bundle.js"></script>
-          <script>
-            const swiper = new Swiper('.swiper-container', {
-            
-            direction: 'horizontal',
-            loop: true,
-
-            
-            pagination: {
-              el: '.swiper-pagination',
-              clickable: 'true'
-            }
-
-          });
-          </script>
         </div>
 
       </section>
     </main>
     <footer>
     </footer>
+        <!--JAVA-SCRIPT КОД ДЛЯ СВАППЕРА-->
+    <script src="./styles/swiper-bundle.js"></script>
+    <script>
+      const swiper = new Swiper('.firstScreen__slider', {
+      
+      direction: 'horizontal',
+      loop: true,
+            
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: 'true'
+    
+    }});
+    </script>
   </body>
 </html>
