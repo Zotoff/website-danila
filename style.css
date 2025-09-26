@@ -1,3 +1,6 @@
 @import url("./styles/normalize.css");
 @import url("./styles/utilites.css");
+@import url("./js/swiper-bundle.js");
+@import url("./styles/swiper-bundle.css");
+@import url("./styles/pagination.css");
 @import url("./styles/ui.css");
