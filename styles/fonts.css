@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("../assets/fonts/Inter/static/Inter_18pt-Medium.ttf");
+}
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../assets/fonts/Inter/static/Inter_18pt-Regular.ttf");
+}
+@font-face {
+  font-family: "Inter-Semibold";
+  src: url("../assets/fonts/Inter/static/Inter_18pt-Semibold.ttf");
+}
