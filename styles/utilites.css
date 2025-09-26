@@ -1,5 +1,14 @@
-.container{
-    max-width: 1296px;
-    margin: 0px auto;
-    display: flex;
+.container {
+  max-width: 1296px;
+  margin: 0px auto;
+  display: flex;
+}
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  transition: all 0.2s ease-in;
 }
