@@ -3,3 +3,10 @@
     margin: 0px auto;
     display: flex;
 }
+ul, ol, p {
+    margin: 0;
+    padding: 0;
+}
+a {
+    transition: all .2s ease-in;
+}
