@@ -5,10 +5,13 @@
     display: flex;
     height: auto;
 }
-ul, ol, p {
-    margin: 0;
-    padding: 0;
+
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
 }
 a {
-    transition: all .2s ease-in;
+  transition: all 0.2s ease-in;
 }

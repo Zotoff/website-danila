@@ -7,7 +7,12 @@
   justify-content: center;
   flex-direction: column;
 }
-
+.header .container {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .header__top,
 .header__bottom {
   width: 100%;
@@ -16,18 +21,14 @@
   align-items: center;
   justify-content: space-between;
 }
-
+.header__top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
 .header__bottom {
   background-color: #fff;
   padding-top: 6px;
   padding-bottom: 10px;
-}
-
-.header .container {
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
 }
 
 .header__nav {
@@ -111,7 +112,6 @@
   top: 13px;
   right: 20px;
 }
-
 .header__bottom__contacts {
   min-width: 368px;
   display: flex;
