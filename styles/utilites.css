@@ -1,8 +1,11 @@
-.container {
-  max-width: 1296px;
-  margin: 0px auto;
-  display: flex;
+.container{
+    max-width: 1296px;
+    min-width: 1296px;
+    margin: 0px auto;
+    display: flex;
+    height: auto;
 }
+
 ul,
 ol,
 p {

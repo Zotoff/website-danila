@@ -1,5 +1,5 @@
 @import url("./styles/normalize.css");
-@import url("./styles/vars.css");
+@import url("./styles/variable.css");
 @import url("./styles/fonts.css");
 @import url("./styles/utilites.css");
 @import url("./js/swiper-bundle.js");
@@ -8,3 +8,4 @@
 @import url("./styles/ui.css");
 @import url("./styles/header.css");
 @import url("./styles/footer.css");
+@import url("./styles/main.css");

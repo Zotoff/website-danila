@@ -1,0 +1,97 @@
+.main {
+    width: 100%;
+    height: auto;
+    background-color: var(--bg-lightgray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.categoriesNav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categoriesNav {
+    background-color: #213F74;
+}
+
+.categoriesNav .container {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.categoriesNav__list {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.categoriesNav__list__item a {
+    font-family: var(--font-family-medium);
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2 ease-in;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.categories__list__item a:hover {
+    color: #DDD3CA;
+    text-decoration: none;
+    cursor: none;
+}
+
+.categoriesNav__list__item--active {
+    background-color: #c6bcb2;
+
+}
+
+.categoriesNav__cart {
+    height: 29px;
+    width: 99px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffff;
+    font-family: var(--font-family-medium);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.categoriesNav__cart__icon {
+    width: 29px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.categoriesNav__cart__amount {
+    height: 15px;
+    width: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #C6BCB2;
+    font-family: var(--font-family-semibold);
+    font-size: 10px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: -5px;
+}
