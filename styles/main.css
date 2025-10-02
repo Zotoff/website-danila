@@ -18,48 +18,80 @@
 
 .categoriesNav {
     background-color: #213F74;
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
-.containerNav {
+.categoriesNav .container {
     width: 100%;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.categories__list {
+.categoriesNav__list {
     width: fit-content;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: start;
-}
-
-.categories__list ul {
     list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 50px; 
+    gap: 50px;
 }
 
-.categories__list ul li a {
+.categoriesNav__list__item a {
     font-family: var(--font-family-medium);
     font-size: 15px;
     color: #fff;
     text-decoration: none;
     cursor: pointer;
+    transition: all 0.2 ease-in;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.categories__list ul li a:hover {
+.categories__list__item a:hover {
     color: #DDD3CA;
     text-decoration: none;
     cursor: none;
 }
 
-.categories__list a {
+.categoriesNav__list__item--active {
+    background-color: #c6bcb2;
+
+}
+
+.categoriesNav__cart {
+    height: 29px;
+    width: 99px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffff;
+    font-family: var(--font-family-medium);
+    font-size: 15px;
     text-decoration: none;
-    cursor: pointer;
+}
+
+.categoriesNav__cart__icon {
+    width: 29px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.categoriesNav__cart__amount {
+    height: 15px;
+    width: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #C6BCB2;
+    font-family: var(--font-family-semibold);
+    font-size: 10px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: -5px;
 }
