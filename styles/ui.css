@@ -57,3 +57,18 @@
   font-size: 22px;
   text-decoration: none;
 }
+
+.info--box {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 10px 0;
+  width: 100%;
+  outline: none;
+  transition: border-color 0.3s ease;
+
+  font-family: var(--font-family-regular);
+  font-size: 14px;
+  color: #fff;
+  
+}
