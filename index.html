@@ -101,7 +101,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="main-section">
       <div class="categoriesNav">
         <div class="container">          
             <ul class="categoriesNav__list">
@@ -436,42 +436,50 @@
         </div>
       </section>
 
-      <section class="contact">
-        <div class="container">
-          <div class="contact__badge"></div>
+      <section class="contact">  
+        <img class="contact__background" src="./assets/images/qa_background.png" alt="">      
+        <div class="container">          
+          <div class="contact__badge">
+            <div class="contact__badge__logo">
+              <svg width="65" height="60" viewBox="0 0 65 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0H65V50C65 55.5228 60.5228 60 55 60H10C4.47715 60 0 55.5228 0 50V0Z" fill="#C6BCB2"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M53.8949 16.5424C56.5837 18.3016 48.7298 30.7926 45.8964 34.4566C46.3017 33.6123 46.8862 32.4771 47.5346 31.2179L47.5349 31.2173C49.1375 28.105 51.13 24.2355 51.7699 22.1276C52.7439 18.9191 51.7699 16.5424 47.7558 17.6713C44.5148 18.5828 41.056 20.168 34.0433 30.9219C37.3118 35.7877 38.218 39.4033 37.4847 42.983C37.2049 44.3488 36.4524 45.5839 35.4467 46.4441C38.3149 46.5904 44.8016 46.4533 49.8806 44.7953C48.3064 46.5877 42.6258 49.6912 32.4963 47.7661C28.8955 48.8851 20.1473 49.8576 13.9609 44.7953C15.804 45.659 21.4285 47.1864 29.2764 46.4494C28.4206 45.6967 27.6202 44.5682 26.9479 42.983C25.5869 39.7744 27.9 34.9834 30.7601 30.7885C24.2098 20.8419 16.6438 15.016 13.0759 18.1763C10.8623 20.1371 16.0962 29.9873 18.8608 34.4567C14.5122 29.3567 8.55594 19.1768 10.7146 16.5424C13.076 13.6606 22.7669 16.8528 30.6372 26.4056C31.2542 27.1546 31.8266 27.8758 32.356 28.572C34.8287 25.3042 37.2862 22.7309 37.8979 22.1276C39.3736 20.6719 48.5823 13.0665 53.8949 16.5424ZM32.5852 33.7139C32.5342 33.6277 32.4831 33.5416 32.4319 33.4558C25.0806 45.3678 30.9408 45.9539 32.172 45.9539C33.4116 45.9539 39.5212 45.4488 32.5852 33.7139Z" fill="white"/>
+              </svg>
+            </div>
+          </div>
           <div class="contact__info">
-            <h2>Остались вопросы?</h2>
-            <p>
+            <h2 class="contact__info__heading">Остались вопросы?</h2>
+            <p class="contact__info__text">
               Заполните форму, мы свяжемся с вами в ближайшее время, ответим на
               все вопросы и предоставим консультацию по ассортименту.
             </p>
             <form action="" method="post" id="contactForm">
-              <div class="form-group">
-                <div>
+              <div class="form-group contact__info__customer">
+                <div class="form-group contact__info__name">
                   <label for="name"></label>
-                  <input type="text" name="name" id="name" />
+                  <input class="info--box" type="text" name="name" id="name" placeholder="Ваше имя"/>
                 </div>
-                <div>
+                <div class="form-group contact__info__telephone">
                   <label for="phone"></label>
-                  <input type="tel" name="phone" id="phone" />
+                  <input class="info--box" type="tel" name="phone" id="phone" placeholder="Номер телефона"/>
                 </div>
               </div>
-              <div class="form-group">
-                <input type="checkbox" name="policy" id="policy" />
+              <div class="form-group contact__info__agree">
+                <input class="contact__info__check" type="checkbox" name="policy" id="policy" />
                 <p>Я согласен(а) с Политикой конфиденциальности.</p>
               </div>
-              <button type="submit">Оставить заявку</button>
+              <button class="contact__info__button" type="submit">Оставить заявку</button>
             </form>
           </div>
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer__section">
       <div class="footer__top">
         <div class="container">
           <div class="footer__top__left">
-            <img src="" alt="" />
-            <a href="" class="footer__whatsapp footer__whatsapp--desktop">
+            <img class="footer__top__logo" src="./assets/images/logo.png" alt="" />
+            <a href="" class="footer__whatsapp">
               <svg
                 width="20"
                 height="20"
@@ -488,9 +496,9 @@
             </a>
           </div>
 
-          <div class="footer__top__middle_one">
-            <p><strong>КАТАЛОГ</strong></p>
-            <ul>
+          <div class="footer__top__middle__one">
+            <p class="footer__top__middle__p">КАТАЛОГ</p>
+            <ul class="footer__top__middle__list">
               <li><a href="">Смесители</a></li>
               <li><a href="">Душевые системы</a></li>
               <li><a href="">Душевые стойки</a></li>
@@ -499,9 +507,9 @@
             </ul>
           </div>
 
-          <div class="footer__top__middle_two">
-            <p><strong>ДЛЯ КЛИЕНТА</strong></p>
-            <ul>
+          <div class="footer__top__middle__two">
+            <p class="footer__top__middle__p">ДЛЯ КЛИЕНТА</p>
+            <ul class="footer__top__middle__list">
               <li><a href="">Акции</a></li>
               <li><a href="">О компании</a></li>
               <li><a href="">Оплата и доставка</a></li>
@@ -511,18 +519,18 @@
           </div>
 
           <div class="footer__top__right">
-            <p>
+            <p class="footer__top__right__p">
               Узнавайте об акциях и новостях первыми, подпишитесь на рассылку
             </p>
             <div class="footer__form">
-              <form action="" id="footerForm" method="post">
-                <input type="email" name="email" />
-                <button type="submit">Подписаться <span>></span></button>
+              <form class="footer__form__send" action="" id="footerForm" method="post">
+                <input class="footer__form__email" type="email" name="email" placeholder="Электронная почта" />
+                <button class="footer__form__button" type="submit">Подписаться ></button>
               </form>
             </div>
-            <div class=""footer__content">
+            <div class="footer__content">
               <div class="footer__content__info">
-              <a href="tel:+7999999" class="""footer__tel">+7 999 999-99-99</a>
+              <a href="tel:+7999999" class="footer__tel">+7 999 999-99-99</a>
 
               <address class="footer__top__right__address">
                 <svg
@@ -540,31 +548,16 @@
                 </svg>
                 г. Новосибирск, улица, дом, офис
               </address>
-              </div>
-                <a href="" class="footer__whatsapp footer__whatsapp--tablet">
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M10.0011 0.90918C15.022 0.90918 19.092 4.97918 19.092 10.0001C19.092 15.021 15.022 19.091 10.0011 19.091C8.39451 19.0936 6.81622 18.6684 5.42835 17.8592L0.913805 19.091L2.1429 14.5746C1.33298 13.1863 0.907485 11.6074 0.910169 10.0001C0.910169 4.97918 4.98017 0.90918 10.0011 0.90918ZM6.9029 5.72736L6.72108 5.73463C6.60337 5.7418 6.48833 5.77273 6.3829 5.82554C6.28428 5.88139 6.19426 5.9512 6.11562 6.03282C6.00653 6.13554 5.94471 6.22463 5.87835 6.311C5.5421 6.74818 5.36105 7.28492 5.36381 7.83645C5.36562 8.28191 5.48199 8.71554 5.66381 9.121C6.03562 9.941 6.64744 10.8092 7.45471 11.6137C7.64926 11.8074 7.84017 12.0019 8.04562 12.1828C9.04871 13.066 10.244 13.7029 11.5365 14.0428L12.0529 14.1219C12.2211 14.131 12.3893 14.1183 12.5584 14.1101C12.8231 14.0964 13.0816 14.0247 13.3156 13.9001C13.4347 13.8388 13.5509 13.772 13.6638 13.7001C13.6638 13.7001 13.7029 13.6746 13.7774 13.6183C13.9002 13.5274 13.9756 13.4628 14.0774 13.3565C14.1529 13.2783 14.2184 13.1865 14.2683 13.0819C14.3393 12.9337 14.4102 12.651 14.4393 12.4155C14.4611 12.2355 14.4547 12.1374 14.452 12.0765C14.4483 11.9792 14.3674 11.8783 14.2793 11.8355L13.7502 11.5983C13.7502 11.5983 12.9593 11.2537 12.4756 11.0337C12.425 11.0116 12.3708 10.999 12.3156 10.9965C12.2534 10.9901 12.1906 10.9971 12.1313 11.017C12.072 11.0369 12.0177 11.0693 11.972 11.1119C11.9674 11.1101 11.9065 11.1619 11.2493 11.9583C11.2115 12.009 11.1596 12.0473 11.1 12.0683C11.0404 12.0894 10.9759 12.0922 10.9147 12.0765C10.8555 12.0606 10.7975 12.0405 10.7411 12.0165C10.6284 11.9692 10.5893 11.951 10.512 11.9183C9.99023 11.6906 9.50716 11.383 9.08017 11.0065C8.96562 10.9065 8.85926 10.7974 8.75017 10.6919C8.39252 10.3494 8.08083 9.96191 7.8229 9.53918L7.76926 9.45282C7.73073 9.39478 7.69959 9.33218 7.67653 9.26645C7.64199 9.13282 7.73199 9.02554 7.73199 9.02554C7.73199 9.02554 7.9529 8.78372 8.05562 8.65282C8.15562 8.52554 8.24017 8.40191 8.29471 8.31373C8.40199 8.141 8.43562 7.96373 8.37926 7.82645C8.12471 7.20463 7.86108 6.58554 7.59017 5.971C7.53653 5.84918 7.37744 5.76191 7.2329 5.74463C7.18381 5.73918 7.13471 5.73373 7.08562 5.73009C6.96354 5.72402 6.8412 5.72524 6.71926 5.73373L6.90199 5.72645L6.9029 5.72736Z"
-                    fill="#00B649"
-                  />
-                </svg>
-                Написать в WhatsApp
-              </a>
+              </div>               
             </div>
           </div>
         </div>
       </div>
       <div class="footer__bottom">
         <div class="container">
-          <p>© DEMM RUBINETTERIA 2023</p>
-          <a href="">Договор оферты</a>
-          <a href="">Пользовательское соглашение</a>
+          <p class="footer__bottom__p">© DEMM RUBINETTERIA 2023</p>
+          <a class="footer__bottom__link" href="">Договор оферты</a>
+          <a class="footer__bottom__link" href="">Пользовательское соглашение</a>
         </div>
       </div>
     </footer>

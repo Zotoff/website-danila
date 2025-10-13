@@ -1,4 +1,4 @@
-.main {
+.main-section {
     width: 100%;
     height: auto;
     background-color: var(--bg-lightgray);
@@ -398,7 +398,7 @@
     position: relative;
     width: 100%;
     margin: 0px 72px;
-    background-color: #f3f5f7;
+    background-color: #fff;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -548,4 +548,126 @@
 .about__right__bottom__link {
     margin-top: 40px;
     text-decoration: none;
+}
+
+.contact {
+    width: 100%;    
+    height: 469px;    
+    position: relative;
+    display: flex;
+    box-sizing: content-box;
+    margin-top: 80px;
+}
+
+.contact__background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:#2C3546B2 100%;
+    z-index: 2;
+}
+
+.contact .container {
+    width: 100%;
+    height: 469px;
+    position: absolute;
+    display: flex;
+    justify-content:start;
+    overflow: hidden;
+}
+
+.contact__badge__logo {
+    width: 65px;
+    height: 60px;
+    margin-left: 332px;
+    z-index: 3;
+    position: absolute;
+}
+
+.contact__info {
+    position: relative;
+    z-index: 3;
+    margin-left: 332px;
+}
+
+.contact__info__heading {
+    font-family: var(--font-family-medium);
+    font-size: 46px;
+    color: #fff;
+    margin-top: 80px;
+}
+
+.contact__info__text {
+    font-family: var(--font-family-regular);
+    font-size: 16px;
+    color: #fff;
+    width: 567px;
+    height: 50px;
+}
+
+.contact__info__customer {    
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.contact__info__customer::placeholder {    
+    color: #fff;
+    opacity: 1;
+}
+
+.contact__info__name {
+    font-family: var(--font-family-regular);
+    font-size: 14px;
+    color: #fff;
+}
+
+.contact__info__name
+::placeholder {    
+    color: #fff;
+    opacity: 1;
+}
+
+.contact__info__telephone {
+    font-family: var(--font-family-regular);
+    font-size: 14px;
+    color: #fff;    
+}
+
+.contact__info__telephone
+::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.contact__info__agree {
+    display: flex;
+    flex-direction: row;
+    font-family: var(--font-family-regular);
+    font-size: 12px;
+    color: #fff;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.contact__info__button {
+    margin-top: 20px;
+    font-family: var(--font-family-semibold);
+    font-size: 14px;
+    color: #fff;
+    background-color: #C6BCB2;
+    border-radius: 50px;
+    width: 176px;
+    height: 60px;
+    border: none;
 }
