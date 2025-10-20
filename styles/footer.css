@@ -50,12 +50,12 @@
     color: #213F74;
 }
 
-.footer__top__middle__one {
+.footer__top__middle {
     display: flex;
     flex-direction: column;
 }
 
-.footer__top__middle__p {    
+.footer__top__middle p {    
     font-family: var(--font-family-semibold);
     font-size: 18px;
     color: #4D526C80;
@@ -86,7 +86,7 @@
     flex-direction: column;
 }
 
-.footer__top__right__p {
+.footer__top__right__paragraph {
     font-family: var(--font-family-medium);
     font-size: 18px;
     color: #122952;
@@ -169,7 +169,7 @@
     display: flex;
 }
 
-.footer__bottom__p {
+.footer__bottom__paragraph {
     width: auto;
     height: 20px;
     font-family: var(--font-family-regular);
