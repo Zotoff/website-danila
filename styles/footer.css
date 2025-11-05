@@ -175,7 +175,7 @@
     font-family: var(--font-family-regular);
     font-size: 15px;
     color: #7F8295;
-    padding-right: 112px;
+    padding-right: 20px;
 }
 
 .footer__bottom__link {
@@ -187,3 +187,5 @@
     margin-inline: 97px;
     text-decoration: none;
 }
+
+

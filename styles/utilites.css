@@ -6,6 +6,14 @@
     height: auto;
 }
 
+@media (max-width: 1296px) {
+  .container {
+    width: 95%;
+    max-width: initial;
+    min-width: initial;
+  }
+}
+
 ul,
 ol,
 p {
@@ -14,4 +22,38 @@ p {
 }
 a {
   transition: all 0.2s ease-in;
+}
+
+.display--desktop {
+  display: flex;
+}
+.display--tablet {
+  display: none !important;
+}
+.display--mobile {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .display--desktop {
+    display: none !important;
+  }
+  .display--tablet {
+    display: flex !important;
+  }
+  .display--mobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .display--desktop {
+    display: none !important;
+  }
+  .display--tablet {
+    display: none !important;
+  }
+  .display--mobile {
+    display: flex !important;
+  }
 }
